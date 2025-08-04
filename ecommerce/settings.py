@@ -47,7 +47,7 @@ SECRET_KEY = 'django-insecure-)b8d($oyf*&e@w&j!+rw&!d-*f7&2rc#$h&6g)30)7@9z0r(--
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ecommerce-5yfq.onrender.com']
+ALLOWED_HOSTS = ['ecommerce-projectnexus.onrender.com']
 
 AUTH_USER_MODEL = 'users.CustomUser'
 
@@ -193,5 +193,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # SECURE_HSTS_SECONDS = 3600
 # SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 # SECURE_HSTS_PRELOAD = True
+
 
 
