@@ -125,7 +125,6 @@ pytest==8.3.5
 python-dateutil==2.9.0.post0
 python-dotenv==0.19.2
 pytz==2025.2
-pywin32==310
 PyYAML==6.0.2
 pyzmq==26.4.0
 rcssmin==1.2.1
@@ -171,5 +170,6 @@ gunicorn
 psycopg2-binary
 whitenoise
 django-ratelimit
+
 
 
