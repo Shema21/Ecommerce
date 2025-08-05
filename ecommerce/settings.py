@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)b8d($oyf*&e@w&j!+rw&!d-*f7&2rc#$h&6g)30)7@9z0r(--'
 DEBUG = False  # Set to False for production
 
-ALLOWED_HOSTS = ['ecommerce-projectnexus.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['ecommerce-projectnexus.onrender.com', '*']
 
 # Installed apps
 INSTALLED_APPS = [
@@ -138,4 +138,5 @@ CACHES = {
 
 # Default auto field
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
