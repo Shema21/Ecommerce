@@ -3,7 +3,7 @@ services:
     name: ecommerce-backend
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn ecommerce.wsgi
+    startCommand: python manage.py runserver 0.0.0.0:8000
     envVars:
       - key: DJANGO_SETTINGS_MODULE
         value: ecommerce.settings
